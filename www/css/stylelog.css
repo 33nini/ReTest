@@ -1,0 +1,20 @@
+
+.blok1, .blok2, .blok3, .blok4{
+    border:5px solid #a1d0f0;
+}
+.blok1{
+  margin:6px 3px 3px 3px;
+  background: rgb(255, 248, 246);
+  width:1230px;
+  height:150px;
+  padding: 5px;
+  text-align: center;
+}
+input {
+    width: 50%;
+    padding: 5px;
+    height: 40px;
+    border-radius: 3px;
+    margin: 5px 0;
+    outline: none;
+  }

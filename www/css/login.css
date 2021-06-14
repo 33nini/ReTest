@@ -1,0 +1,82 @@
+
+.blok1, .blok2, .blok3, .blok4{
+    border:5px solid #a1d0f0;
+}
+.blok1{
+  margin:6px 3px 3px 3px;
+  background: rgb(255, 248, 246);
+  width:1230px;
+  height:200px;
+  padding: 5px;
+  text-align: center;
+}
+input {
+    width: 15%;
+    padding: 5px;
+    height: 20px;
+    border-radius: 1px;
+    margin: 5px 0;
+    outline: none;
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus {
+    border: 1px solid #a1d0f0;
+    box-shadow: none;
+  }
+  
+  .user-input:focus .user {
+    background: white !important;
+  }
+  
+  input[type="text"] {
+    background: transparent;
+    border: 2px solid #a1d0f0;
+    padding-left: 45px;
+    color: #cf9c1b;
+  }
+  
+  input[type="password"] {
+    background: transparent;
+    border: 2px solid #a1d0f0;
+    padding-left: 45px;
+    color: #cf9c1b;
+  }
+  
+  input[type="submit"] {
+    background: #cf9c1b;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    cursor: pointer;
+  }
+  label {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 15px;
+  }
+  .floating-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+.floating-button:hover {
+  background: #2EE59D;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+  color: white;
+  transform: translateY(-7px);
+}
+  
